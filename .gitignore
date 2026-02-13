@@ -1,4 +1,76 @@
-# Visual Studio
-.vs/
+############################
+# Build results
+############################
 bin/
 obj/
+Debug/
+Release/
+x64/
+x86/
+build/
+publish/
+
+############################
+# Visual Studio
+############################
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+############################
+# Rider
+############################
+.idea/
+*.sln.iml
+
+############################
+# Logs
+############################
+*.log
+
+############################
+# OS files
+############################
+.DS_Store
+Thumbs.db
+
+############################
+# NuGet
+############################
+*.nupkg
+packages/
+!packages/build/
+
+############################
+# Environment variables
+############################
+.env
+.env.*
+appsettings.Development.json
+
+############################
+# IIS / publish settings
+############################
+*.publishsettings
+*.pubxml
+*.pubxml.user
+
+############################
+# Database
+############################
+*.mdf
+*.ldf
+
+############################
+# Test results
+############################
+TestResults/
+coverage/
+
+############################
+# Blazor / frontend builds
+############################
+node_modules/
+dist/
